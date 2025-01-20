@@ -1,8 +1,6 @@
 import Button from "../components/general/Button";
 import Article from "../components/general/Article";
 
-import { Slider,Card } from "../components/general/Slider";
-
 function Home(){
   return(
     <>

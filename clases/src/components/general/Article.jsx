@@ -1,4 +1,4 @@
-import { Children } from "react"
+import propTypes from "prop-types";
 
 function Article({children}){
   return(
