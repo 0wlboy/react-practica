@@ -1,12 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Button from './components/general/Button'
-import "./resources/css/output.css"
+import './resources/css/output.css'
+
+import Home from './pages/Home'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h1>hola mundo</h1>
-    <Button />
-    <Button texto='clickea'/>
+    <Home></Home>
   </StrictMode>,
 )
